@@ -22,6 +22,10 @@ pub enum VoterWeightAction {
     /// Signs off a proposal for a governance. Target: Proposal
     /// Note: SignOffProposal is not supported in the current version
     SignOffProposal,
+    
+    
+    /// Registers for a rewards distribution. Target: Distribution
+    RegisterForRewards,
 }
 
 /// VoterWeightRecord account
